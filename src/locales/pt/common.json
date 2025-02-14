@@ -3,5 +3,8 @@
   "Locale": "Tradução",
   "Theme": "Tema",
   "DefaultLayout": "Layout Padrão",
-  "Language": "Idioma"
+  "Language": "Idioma",
+  "light": "Claro",
+  "dark": "Escuro",
+  "system": "Sistema"
 }

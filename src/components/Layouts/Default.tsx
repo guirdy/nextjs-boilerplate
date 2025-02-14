@@ -10,12 +10,16 @@ interface DefaultLayoutProps {
 export const DefaultLayout: FunctionComponent<DefaultLayoutProps> = (props) => {
   return (
     <Seo title={props.title}>
-      <Navbar />
+      <div className="min-h-screen flex flex-col">
+        <Navbar />
 
-      {props.children}
+        <div className="flex flex-1 container mx-auto lg:px-0 px-4">
+          <div className="flex-1 w-full">{props.children}</div>
+        </div>
 
-      <div className="border-t py-3 text-center">
-        <footer>Footer</footer>
+        <div className="border-t py-3 text-center">
+          <footer>Footer</footer>
+        </div>
       </div>
     </Seo>
   )

@@ -3,5 +3,8 @@
   "Locale": "Locale",
   "Theme": "Theme",
   "DefaultLayout": "Default Layout",
-  "Language": "Language"
+  "Language": "Language",
+  "light": "Light",
+  "dark": "Dark",
+  "system": "System"
 }

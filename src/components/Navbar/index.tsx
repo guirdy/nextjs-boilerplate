@@ -6,7 +6,7 @@ import { ChangeLanguage } from '../ChangeLanguage'
 
 export const Navbar: FunctionComponent = () => {
   return (
-    <div className="sticky top-0 border-b border-border z-50">
+    <div className="sticky top-0 border-b border-border z-50 bg-background">
       <div className="flex h-16 items-center justify-between px-4 container mx-auto">
         <Link
           href="/"
